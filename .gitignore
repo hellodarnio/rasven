@@ -1,0 +1,38 @@
+# Android and Gradle generated files
+.gradle/
+.kotlin/
+.idea/
+*.iml
+**/build/
+local.properties
+**/local.properties
+captures/
+**/captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+*.log
+*.apk
+*.aab
+output-metadata.json
+
+# Signing material and local credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+**/release-signing.properties
+**/signing.properties
+.env
+.env.*
+google-services.json
+
+# Release packages and private QA artifacts
+*.zip
+evidence/
+screenshots/
+app/release/
+META-INF/
+SOURCE_MANIFEST.sha256

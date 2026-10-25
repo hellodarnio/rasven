@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Native conversion of Figma e2a2f.svg: circle (150,150), radius150,
+     opacity.9, radial radius214.286, translated by (-90,-100), clipped to210×200. -->
+<vector xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="210dp" android:height="200dp" android:viewportWidth="210" android:viewportHeight="200">
+    <path android:pathData="M 210,50 A 150,150 0 0,1 -90,50 A 150,150 0 0,1 210,50 Z" android:fillAlpha="0.9">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="60" android:centerY="50" android:gradientRadius="214.286">
+                <item android:offset="0" android:color="#5C75D6E7" />
+                <item android:offset="1" android:color="#0075D6E7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

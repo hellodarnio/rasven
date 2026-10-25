@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Visible export of Figma 843:5467 ambient ellipse, clipped to 155x142. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="155dp" android:height="142dp" android:viewportWidth="155" android:viewportHeight="142">
+    <path android:pathData="M220,32A110,110 0,1 1,0 32A110,110 0,1 1,220 32">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="110" android:centerY="32" android:gradientRadius="157.143">
+                <item android:offset="0" android:color="#5C75D6E7" />
+                <item android:offset="1" android:color="#0075D6E7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

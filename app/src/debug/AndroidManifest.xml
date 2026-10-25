@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name=".debug.RasvenEnglishSetupQaActivity"
+            android:exported="false"
+            android:label="Rasven English setup — offline QA"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".debug.RasvenRegistrationSuccessQaActivity"
+            android:exported="true"
+            android:label="Rasven Stage5A7 QA"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".debug.RasvenRegistrationFailureQaActivity"
+            android:exported="true"
+            android:label="Rasven Stage5A8 QA"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>

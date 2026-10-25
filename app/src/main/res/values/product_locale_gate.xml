@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English is the product default; Persian remains explicitly selectable. -->
+    <bool name="rasven_product_locales_complete">true</bool>
+</resources>

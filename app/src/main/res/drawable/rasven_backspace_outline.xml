@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24"
+    android:autoMirrored="false">
+    <!-- Product backspace glyph: matches Huge-icon outline's 24px / 1.5px round stroke.
+         No actual backspace glyph exists in the referenced Figma library. This is not
+         an exact Figma export. Point left for the explicitly LTR number field. -->
+    <path android:pathData="M9,5H20C21.1,5 22,5.9 22,7V17C22,18.1 21.1,19 20,19H9C8.4,19 7.9,18.7 7.5,18.3L2,12L7.5,5.7C7.9,5.3 8.4,5 9,5Z M11,9L17,15 M17,9L11,15"
+        android:fillColor="@android:color/transparent" android:strokeColor="#102B42"
+        android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

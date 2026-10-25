@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exact supplied Figma SVG conversion; EN-only, original geometry retained. -->
+<vector xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android" android:width="270dp" android:height="270dp" android:viewportWidth="270" android:viewportHeight="270">
+    <path android:pathData="M0,135 a135,135 0 1,0 270,0 a135,135 0 1,0 -270,0" android:fillAlpha="0.85">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="135" android:centerY="135" android:gradientRadius="192.857">
+                <item android:offset="0" android:color="#5C75D6E7" />
+                <item android:offset="1" android:color="#0075D6E7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exact supplied Figma SVG conversion; EN-only, original geometry retained. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="14dp" android:height="14dp" android:viewportWidth="14" android:viewportHeight="14">
+    <group>
+        <path android:pathData="M1.16667,7 a5.83333,5.83333 0 1,0 11.66666,0 a5.83333,5.83333 0 1,0 -11.66666,0" android:fillColor="@android:color/transparent" android:strokeColor="#8DD9E6" android:strokeWidth="0.875" />
+        <path android:pathData="M7.875 7C7.875 7.48325 7.48325 7.875 7 7.875C6.51675 7.875 6.125 7.48325 6.125 7C6.125 6.51675 6.51675 6.125 7 6.125C7.48325 6.125 7.875 6.51675 7.875 7Z" android:fillColor="@android:color/transparent" android:strokeColor="#8DD9E6" android:strokeWidth="0.875" />
+        <path android:pathData="M7 6.125V3.5" android:fillColor="@android:color/transparent" android:strokeColor="#8DD9E6" android:strokeWidth="0.875" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

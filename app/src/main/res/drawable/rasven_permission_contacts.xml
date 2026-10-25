@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Exact geometry exported from Figma 550:27952; tint is applied by the consumer. -->
+    <path android:fillColor="#FF000000" android:fillAlpha="0.4" android:pathData="M7.5,6A2.5,2.5 0,1 0,7.5 11A2.5,2.5 0,1 0,7.5 6" />
+    <path android:fillColor="#FF000000" android:fillAlpha="0.4" android:pathData="M16.5,6A2.5,2.5 0,1 0,16.5 11A2.5,2.5 0,1 0,16.5 6" />
+    <path android:fillColor="#FF000000" android:fillAlpha="0.4" android:pathData="M12,13A6,3 0,1 0,12 19A6,3 0,1 0,12 13" />
+    <path android:fillColor="#FF000000" android:pathData="M16.9998,13C19.7612,13 21.9998,14.1193 21.9998,15.5C21.9998,16.8807 19.7612,18 16.9998,18C16.8287,18 16.6596,17.9957 16.4929,17.9873C17.4304,17.458 17.9998,16.7626 17.9998,16C17.9998,14.813 16.6212,13.7872 14.6208,13.3008C15.3283,13.1091 16.1386,13 16.9998,13Z" />
+    <path android:fillColor="#FF000000" android:pathData="M7,13C7.86119,13 8.67146,13.1091 9.37891,13.3008C7.37864,13.7873 6,14.8131 6,16C6,16.7624 6.56892,17.4581 7.50586,17.9873C7.33951,17.9957 7.17076,18 7,18C4.23858,18 2,16.8807 2,15.5C2,14.1193 4.23858,13 7,13Z" />
+    <path android:fillColor="#FF000000" android:pathData="M12,5A3,3 0,1 0,12 11A3,3 0,1 0,12 5" />
+</vector>

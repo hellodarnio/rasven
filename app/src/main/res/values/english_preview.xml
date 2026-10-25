@@ -1,0 +1,4 @@
+<resources>
+    <!-- English UI copy and layout are wired as a supported product language. -->
+    <bool name="rasven_english_setup_resources_ready">true</bool>
+</resources>

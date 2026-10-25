@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exact supplied Figma SVG conversion; EN-only, original geometry retained. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="68dp" android:height="68dp" android:viewportWidth="68" android:viewportHeight="68">
+    <group>
+        <path android:pathData="M34 0.5C52.5015 0.5 67.5 15.4985 67.5 34C67.5 52.5015 52.5015 67.5 34 67.5C15.4985 67.5 0.5 52.5015 0.5 34C0.5 15.4985 15.4985 0.5 34 0.5Z" android:fillColor="#F8FBFD" />
+        <path android:pathData="M34 0.5C52.5015 0.5 67.5 15.4985 67.5 34C67.5 52.5015 52.5015 67.5 34 67.5C15.4985 67.5 0.5 52.5015 0.5 34C0.5 15.4985 15.4985 0.5 34 0.5Z" android:fillColor="@android:color/transparent" android:strokeColor="#D7F1F7" android:strokeWidth="1" />
+        <path android:pathData="M16.5,34 a17.5,17.5 0 1,0 35,0 a17.5,17.5 0 1,0 -35,0" android:fillColor="#EAF7F9" android:strokeColor="#C9ECF5" android:strokeWidth="1" />
+        <group>
+            <path android:pathData="M41.5 39.8333V38.4617C41.5 37.7802 41.0851 37.1674 40.4523 36.9143L38.7572 36.2362C37.9524 35.9143 37.0352 36.263 36.6475 37.0383L36.5 37.3333C36.5 37.3333 34.4167 36.9167 32.75 35.25C31.0833 33.5833 30.6667 31.5 30.6667 31.5L30.9617 31.3525C31.737 30.9648 32.0857 30.0476 31.7638 29.2428L31.0857 27.5477C30.8326 26.9149 30.2198 26.5 29.5383 26.5H28.1667C27.2462 26.5 26.5 27.2462 26.5 28.1667C26.5 35.5305 32.4695 41.5 39.8333 41.5C40.7538 41.5 41.5 40.7538 41.5 39.8333Z" android:fillColor="@android:color/transparent" android:strokeColor="#102B42" android:strokeWidth="1.5" android:strokeLineJoin="round" />
+        </group>
+    </group>
+</vector>

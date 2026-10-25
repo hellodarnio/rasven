@@ -1,0 +1,8 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp" android:height="32dp"
+    android:viewportWidth="32" android:viewportHeight="32">
+    <!-- Exact export of Figma 766:5911, instance of official 550:29423. -->
+    <path android:pathData="M13.2907 5.55456C14.4716 3.48181 17.5286 3.48181 18.7094 5.55456L28.9389 23.5099C30.0866 25.5244 28.5928 28 26.2296 28H5.7706C3.40736 28 1.91355 25.5244 3.06124 23.5099L13.2907 5.55456Z" android:fillColor="#E23A43" android:fillAlpha="0.4" />
+    <path android:pathData="M17.3334 22.6667C17.3334 23.4031 16.7365 24 16.0001 24C15.2637 24 14.6667 23.4031 14.6667 22.6667C14.6667 21.9303 15.2637 21.3333 16.0001 21.3333C16.7365 21.3333 17.3334 21.9303 17.3334 22.6667Z" android:fillColor="#E23A43" />
+    <path android:pathData="M16 11C16.5523 11 17 11.4477 17 12V18.6667C17 19.219 16.5523 19.6667 16 19.6667C15.4477 19.6667 15 19.219 15 18.6667V12C15 11.4477 15.4477 11 16 11Z" android:fillColor="#E23A43" android:fillType="evenOdd" />
+</vector>
