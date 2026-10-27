@@ -2,7 +2,9 @@
 
 Rasven is a free-to-use Android softphone for people who already have an account on an IAX2-compatible organizational PBX. It does not provide a phone service or PBX accounts.
 
-**Project status:** Rasven 1.0.0 is a release candidate, not an approved public release. No installable APK is published in this repository. [فارسی](README.fa.md)
+**Download:** Rasven is currently available through app markets. Official listing links and the displayed store version will be added after confirmation. This GitHub repository contains source; it does not host the market APK or a GitHub Release. [فارسی](README.fa.md)
+
+**This source snapshot:** The Gradle configuration specifies version 1.0.0 (versionCode 1), package ID darnio.rasven.android, and minimum Android API 26. The market build has not yet been matched to this exact source snapshot.
 
 ## What the app includes
 
@@ -40,9 +42,9 @@ Release signing uses credentials stored outside this repository. Never commit a 
 
 ## Validation and known gaps
 
-The 2026-10-23 handoff reported 332 passing JVM unit tests and a targeted Android device run of 8/8. These checks predate the latest signing configuration change. A separate full device run had 5 failures (190/195), so the full device suite was not green.
+The 2026-10-23 handoff for this source snapshot reported 332 passing JVM unit tests and a targeted Android device run of 8/8. Those checks predate the latest signing configuration change. A separate full device run had 5 failures (190/195), so the full device suite was not green. These results are for the source snapshot and do not verify the currently distributed market APK.
 
-Live PBX interoperability for the current source snapshot, attended transfer, and extended background/Doze behavior remain unverified. The release signing configuration changed after the previously built APK; a new APK must be built and checked before distribution.
+Live PBX interoperability for that source snapshot, attended transfer, and extended background/Doze behavior remain unverified. The handoff records no fresh APK build after the signing configuration changed; this GitHub source has not yet been matched to the market package.
 
 ## Support Rasven with cryptocurrency
 
