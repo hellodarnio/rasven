@@ -2,7 +2,7 @@
 
 Rasven is a free-to-use Android softphone for people who already have an account on an IAX2-compatible organizational PBX. It does not provide a phone service or PBX accounts.
 
-**Download:** Rasven v1 is complete and currently available through app markets. This GitHub repository contains source; it does not host the market APK or a GitHub Release. [فارسی](README.fa.md)
+**Download:** Rasven v1 is complete and available through app markets. The signed v1.0.0 APK is also attached to the [GitHub Release](https://github.com/hellodarnio/rasven/releases/tag/v1.0.0). This repository is private, so GitHub downloads require repository access. [فارسی](README.fa.md)
 
 **This source snapshot:** The Gradle configuration specifies version 1.0.0 (versionCode 1), package ID darnio.rasven.android, and minimum Android API 26. The market build has not yet been matched to this exact source snapshot.
 
