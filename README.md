@@ -48,13 +48,12 @@ Live PBX interoperability for that source snapshot, attended transfer, and exten
 
 ## Support Rasven with cryptocurrency
 
-Rasven is free to use. Voluntary support details will be listed here when ready.
+Rasven is free to use, and support is optional. Send only USDT on the network named for each address.
 
-- Asset: to be added
-- Network: to be added
-- Public wallet address: to be added
+- USDT — BNB Smart Chain (BEP-20): `0x2548E3A6dECac1FFfb0d02175d165B914CF04D40`
+- USDT — TRON (TRC-20): `TDWVLgeWp21hkPV4zgRJzMTB28nzcyuGck`
 
-The asset and exact network will be stated together for every wallet address.
+Check both the asset and network before sending. A transfer on the wrong network may not be recoverable.
 
 ## License and contributions
 
