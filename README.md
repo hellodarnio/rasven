@@ -1,62 +1,95 @@
-# Rasven for Android
+<p align="center">
+  <img src="docs/media/readme/hero-en.svg" alt="Rasven for Android — a free softphone for your organization's IAX2 PBX" width="100%">
+</p>
 
-Rasven is a free-to-use Android softphone for people who already have an account on an IAX2-compatible organizational PBX. It does not provide a phone service or PBX accounts.
+<h1 align="center">Rasven for Android</h1>
 
-**Download:** Rasven v1 is complete and available through app markets. The signed v1.0.0 APK is also attached to the [GitHub Release](https://github.com/hellodarnio/rasven/releases/tag/v1.0.0). This repository is private, so GitHub downloads require repository access. [فارسی](README.fa.md)
+<p align="center">
+  <a href="README.fa.md">فارسی</a> · <a href="#download">Download</a> · <a href="#architecture">Architecture</a> · <a href="#support-rasven">Support Rasven</a>
+</p>
 
-**This source snapshot:** The Gradle configuration specifies version 1.0.0 (versionCode 1), package ID darnio.rasven.android, and minimum Android API 26. The market build has not yet been matched to this exact source snapshot.
+Rasven is a free Android softphone for people who already have an account on an **IAX2-compatible organizational PBX**. It brings the organization's business line to an Android phone; it does not provide phone service, a PBX, or PBX accounts.
 
-## What the app includes
+## Download
 
-- IAX2 account setup and connection status
-- Incoming and outgoing call flows
-- Contacts, call history, and call settings
-- English interface by default, with Persian available
+<p align="center"><a href="https://github.com/hellodarnio/rasven/releases/tag/v1.0.0"><strong>Get the Rasven v1.0.0 APK</strong></a></p>
 
-These describe the current source scope; they are not a claim that every PBX or device has been certified.
+The APK is attached to the [GitHub Release](https://github.com/hellodarnio/rasven/releases/tag/v1.0.0). **This repository is private**, so GitHub requires repository access to download it. Rasven v1 is also available through app markets.
+
+> **Version note:** the market package has not been matched to this exact source snapshot or signing certificate. Installing this APK may not update a market-installed copy.
+
+## At a glance
+
+| | |
+|---|---|
+| 📞 **Business-line calling** | IAX2 account setup and incoming/outgoing call flows |
+| 🎛️ **In-call controls** | Mute, speaker, hold, and keypad controls are included in the app |
+| 👥 **Useful phone tools** | Contacts, call history, and call settings |
+| 🌐 **Two languages** | English by default, with Persian available |
+
+The list describes the current source. It is not a certification of compatibility with every PBX or Android device.
+
+## See the app
+
+<p align="center">
+  <img src="docs/media/readme/home-en.png" alt="Rasven home dialer with sample account status and number keypad" width="245">
+</p>
+<p align="center"><sub>Home dialer UI from the source project's device evidence. Its connected indicator and extension are sample state, not a live PBX connection.</sub></p>
+
+## Architecture
+
+Rasven is an Android client with its own IAX2 signaling and UDP transport code. Call audio passes through the app's G.711 media engine and Android audio APIs. The PBX is an existing server managed by the organization; it is outside this repository.
+
+<p align="center">
+  <img src="docs/media/readme/architecture-en.svg" alt="Rasven architecture: Android UI, built-in IAX2 client, audio media, and the organization's external PBX" width="100%">
+</p>
+
+The app needs an IAX2 account and network access to that PBX. Ask the PBX administrator for the server address, port, extension or username, and password.
 
 ## Requirements
 
 - Android 8.0 (API 26) or newer
-- An IAX2 account from your organization’s PBX administrator
+- An account from an IAX2-compatible organizational PBX
 - Network access to that PBX
 - Microphone and notification permissions for calling; contacts access is optional
 
-Ask your PBX administrator for the server address, port, extension or username, and password. Use the values they provide; the correct port and network configuration depend on your PBX.
+## Build from source
 
-## Build a debug APK
+Install a compatible JDK and Android SDK, then open the repository in Android Studio or use the Gradle Wrapper from the project root.
 
-Install a compatible JDK and Android SDK, then open this repository in Android Studio or run the Gradle Wrapper from the project root.
+**Windows PowerShell**
 
-Windows PowerShell:
+```powershell
+.\gradlew.bat :app:assembleDebug
+```
 
-    .\gradlew.bat :app:assembleDebug
+**Linux or macOS**
 
-Linux or macOS:
+```sh
+./gradlew :app:assembleDebug
+```
 
-    ./gradlew :app:assembleDebug
+The debug APK is written to `app/build/outputs/apk/debug/`. It is for development and evaluation, not a signed public release. A release build also requires the approved production application ID and signing credentials; keep those values outside this repository and never commit a keystore or passwords.
 
-The debug APK is written under app/build/outputs/apk/debug/. It is for development and evaluation, not a signed public release.
+## Validation status
 
-Release signing uses credentials stored outside this repository. Never commit a keystore, password, or signing properties file.
+The source handoff dated 2026-10-23 reported **332 passing JVM unit tests** and a targeted Android device run of **8/8**. These checks predate the latest signing configuration change. A separate full device run reported **190/195**, with five failures, so that suite was not green. The handoff records no fresh APK build after the signing change.
 
-## Validation and known gaps
+Live interoperability with a PBX, attended transfer, and extended background/Doze behavior remain unverified for this source snapshot. Historical test results do not verify the APK currently distributed through app markets.
 
-The 2026-10-23 handoff for this source snapshot reported 332 passing JVM unit tests and a targeted Android device run of 8/8. Those checks predate the latest signing configuration change. A separate full device run had 5 failures (190/195), so the full device suite was not green. These results are for the source snapshot and do not verify the currently distributed market APK.
+## Support Rasven
 
-Live PBX interoperability for that source snapshot, attended transfer, and extended background/Doze behavior remain unverified. The handoff records no fresh APK build after the signing configuration changed; this GitHub source has not yet been matched to the market package.
+Rasven is free to use. Cryptocurrency support is optional and accepted in **USDT only** at the two addresses below. Each QR code contains only its wallet address; it does not select a token or network for you.
 
-## Support Rasven with cryptocurrency
+| 🟢 **USDT · BNB Smart Chain (BEP-20)** | 🔺 **USDT · TRON (TRC-20)** |
+|---|---|
+| <img src="docs/media/readme/usdt-bep20.svg" alt="QR code for the USDT BNB Smart Chain BEP-20 wallet address" width="180"> | <img src="docs/media/readme/usdt-trc20.svg" alt="QR code for the USDT TRON TRC-20 wallet address" width="180"> |
+| `0x2548E3A6dECac1FFfb0d02175d165B914CF04D40` | `TDWVLgeWp21hkPV4zgRJzMTB28nzcyuGck` |
 
-Rasven is free to use, and support is optional. Send only USDT on the network named for each address.
+Before sending, confirm **USDT** and the exact network shown above in your wallet. A transfer on a different network may not be recoverable.
 
-- USDT — BNB Smart Chain (BEP-20): `0x2548E3A6dECac1FFfb0d02175d165B914CF04D40`
-- USDT — TRON (TRC-20): `TDWVLgeWp21hkPV4zgRJzMTB28nzcyuGck`
+## Project status and license
 
-Check both the asset and network before sending. A transfer on the wrong network may not be recoverable.
+The source repository is private today. **No project license has been added yet**, so the code is not yet released under an open-source license. A license must be selected before public reuse or public contribution can be invited.
 
-## License and contributions
-
-A license has not yet been added to this repository. The maintainer will select and add an open-source license before the public source release. Contribution guidance will be published at that time.
-
-Maintained by Darnio Studio.
+Maintained by **Darnio Studio**.

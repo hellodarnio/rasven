@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Rasven client and PBX architecture</title><desc id="desc">The Android app contains the user interface, an IAX2 client and audio media. It connects to an existing organization PBX over UDP; the PBX is not part of this repository.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06283D"/><stop offset="1" stop-color="#0B5267"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F2F8F8"/></linearGradient>
+  <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4ECFC1"/></marker>
+</defs>
+<rect width="1200" height="440" rx="28" fill="#F4F9F9"/>
+<rect x="1" y="1" width="1198" height="438" rx="27" fill="none" stroke="#D7E8EA" stroke-width="2"/>
+<text x="42" y="48" fill="#103849" font-family="Arial, sans-serif" font-size="22" font-weight="700">HOW RASVEN CONNECTS</text>
+<text x="42" y="75" fill="#55717C" font-family="Arial, sans-serif" font-size="14">A focused Android client that uses your organization's existing phone system.</text>
+<rect x="34" y="101" width="817" height="280" rx="24" fill="#EAF4F5" stroke="#BCD8DC" stroke-width="2"/>
+<text x="58" y="131" fill="#0B8195" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">RASVEN APP · INCLUDED IN THIS REPOSITORY</text>
+<g font-family="Arial, sans-serif">
+  <rect x="56" y="153" width="226" height="192" rx="19" fill="url(#card)" stroke="#D3E3E5"/>
+  <circle cx="83" cy="181" r="15" fill="#DFF3F3"/><path d="M79 171h8a3 3 0 013 3v14a3 3 0 01-3 3h-8a3 3 0 01-3-3v-14a3 3 0 013-3zM81 174h4M82 188h2" fill="none" stroke="#0369A1" stroke-width="2"/>
+  <text x="108" y="186" fill="#103849" font-size="17" font-weight="700">App UI</text>
+  <text x="75" y="226" fill="#2E5663" font-size="14">Jetpack Compose</text>
+  <text x="75" y="253" fill="#55717C" font-size="13">Setup · dialer</text>
+  <text x="75" y="276" fill="#55717C" font-size="13">Contacts · history</text>
+  <text x="75" y="299" fill="#55717C" font-size="13">Settings · call screens</text>
+  <rect x="312" y="153" width="235" height="192" rx="19" fill="url(#card)" stroke="#D3E3E5"/>
+  <circle cx="340" cy="181" r="15" fill="#DFF3F3"/><path d="M333 181h14M340 174v14M335 176l10 10M345 176l-10 10" stroke="#0369A1" stroke-width="1.7"/>
+  <text x="364" y="186" fill="#103849" font-size="17" font-weight="700">IAX2 client</text>
+  <text x="331" y="226" fill="#2E5663" font-size="14">Signaling + call control</text>
+  <text x="331" y="253" fill="#55717C" font-size="13">IAX2 frame codec</text>
+  <text x="331" y="276" fill="#55717C" font-size="13">UDP packet transport</text>
+  <text x="331" y="299" fill="#55717C" font-size="13">Account registration</text>
+  <rect x="577" y="153" width="248" height="192" rx="19" fill="url(#card)" stroke="#D3E3E5"/>
+  <circle cx="605" cy="181" r="15" fill="#DFF3F3"/><path d="M599 183v-4a6 6 0 0112 0v4M599 183h3v5h-3zM608 183h3v5h-3zM603 190h5" fill="none" stroke="#0369A1" stroke-width="1.7"/>
+  <text x="629" y="186" fill="#103849" font-size="17" font-weight="700">Media + Android</text>
+  <text x="596" y="226" fill="#2E5663" font-size="14">G.711 audio codec</text>
+  <text x="596" y="253" fill="#55717C" font-size="13">Bounded jitter buffer</text>
+  <text x="596" y="276" fill="#55717C" font-size="13">AudioRecord / AudioTrack</text>
+  <text x="596" y="299" fill="#55717C" font-size="13">Android call services</text>
+  <path d="M291 248h11M555 248h15" stroke="#159C9B" stroke-width="3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+</g>
+<rect x="907" y="139" width="259" height="226" rx="24" fill="url(#bg)"/>
+<rect x="936" y="166" width="48" height="58" rx="8" fill="#DDF4F1" opacity=".95"/>
+<path d="M936 181h48M936 195h48M936 209h48" stroke="#0B8195" stroke-width="3"/><circle cx="944" cy="174" r="2.5" fill="#0B9F86"/><circle cx="944" cy="188" r="2.5" fill="#0B9F86"/><circle cx="944" cy="202" r="2.5" fill="#0B9F86"/>
+<text x="1000" y="181" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">Your organization</text>
+<text x="1000" y="208" fill="#83E3D7" font-family="Arial, sans-serif" font-size="16" font-weight="700">IAX2 PBX</text>
+<text x="937" y="263" fill="#E4F1F2" font-family="Arial, sans-serif" font-size="14">Existing server</text>
+<text x="937" y="288" fill="#E4F1F2" font-family="Arial, sans-serif" font-size="14">Extensions + routing</text>
+<rect x="937" y="311" width="192" height="29" rx="14" fill="#FFFFFF" fill-opacity=".13"/>
+<text x="1033" y="331" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="12" font-weight="700">OUTSIDE THIS REPOSITORY</text>
+<path d="M856 248h40" stroke="#0B8195" stroke-width="4" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<rect x="863" y="215" width="27" height="23" rx="11" fill="#F4F9F9"/>
+<text x="876" y="231" text-anchor="middle" fill="#0B8195" font-family="Arial, sans-serif" font-size="11" font-weight="700">UDP</text>
+<text x="42" y="414" fill="#55717C" font-family="Arial, sans-serif" font-size="13">No Rasven-hosted server is included; your PBX administrator supplies the account details.</text>
+</svg>
