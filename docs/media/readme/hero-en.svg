@@ -21,15 +21,5 @@
   <rect x="339" y="353" width="163" height="34" rx="17" fill="#FFFFFF" fill-opacity=".12" stroke="#8DE7DC" stroke-opacity=".65"/><text x="420.5" y="375" fill="#FFFFFF" text-anchor="middle">ENGLISH + فارسی</text>
 </g>
 <g filter="url(#shadow)">
-  <rect x="835" y="39" width="260" height="342" rx="36" fill="#041D2D" stroke="#8DE7DC" stroke-opacity=".62" stroke-width="2"/>
-  <rect x="849" y="54" width="232" height="312" rx="25" fill="#F5FAFA"/>
-  <rect x="932" y="63" width="66" height="7" rx="3.5" fill="#D9E8E9"/>
-  <text x="965" y="112" text-anchor="middle" fill="#143A4A" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1">BUSINESS LINE</text>
-  <rect x="906" y="126" width="118" height="28" rx="14" fill="#E8F0F2"/><text x="965" y="145" text-anchor="middle" fill="#45636C" font-family="Arial, sans-serif" font-size="12" font-weight="700">IAX2 ACCOUNT</text>
-  <circle cx="965" cy="199" r="37" fill="#E4F4F5"/><circle cx="965" cy="199" r="20" fill="#0369A1" opacity=".12"/>
-  <path d="M957 190c-4 3-5 8-2 12l7 9c3 3 8 3 11 0l3-3-8-8-4 3-6-7 3-4z" fill="#0369A1"/>
-  <g fill="#DCEBED"><rect x="890" y="251" width="44" height="30" rx="12"/><rect x="943" y="251" width="44" height="30" rx="12"/><rect x="996" y="251" width="44" height="30" rx="12"/><rect x="890" y="288" width="44" height="30" rx="12"/><rect x="943" y="288" width="44" height="30" rx="12"/><rect x="996" y="288" width="44" height="30" rx="12"/></g>
-  <g fill="#164154" font-family="Arial, sans-serif" font-size="14" text-anchor="middle"><text x="912" y="271">1</text><text x="965" y="271">2</text><text x="1018" y="271">3</text><text x="912" y="308">4</text><text x="965" y="308">5</text><text x="1018" y="308">6</text></g>
-  <circle cx="965" cy="341" r="15" fill="url(#accent)"/><path d="M959 338c3-4 5-3 7 0l-2 3 4 4 3-2c3 2 4 4 0 7-3 2-7-1-10-4-3-3-5-7-2-8z" fill="#FFFFFF"/>
-</g>
-</svg>
+  <image href="home-en.png" x="899" y="10" width="159" height="400" preserveAspectRatio="xMidYMid meet"/>
+</g></svg>

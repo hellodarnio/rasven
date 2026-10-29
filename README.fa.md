@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="docs/media/readme/hero-fa.svg" alt="Rasven برای اندروید؛ تلفن نرم‌افزاری برای PBX سازمانی سازگار با IAX2" width="100%">
+  <img src="docs/media/readme/banner-fa.png" alt="Rasven برای اندروید؛ تلفن نرم‌افزاری برای PBX سازمانی سازگار با IAX2، همراه با تصویر خود برنامه" width="100%">
 </p>
+<p align="center"><sub>بنر از صفحهٔ خانهٔ خود Rasven استفاده می‌کند؛ وضعیت اتصال و داخلیِ دیده‌شده مقدار نمونه‌اند.</sub></p>
 
 <h1 align="center">Rasven برای اندروید</h1>
 

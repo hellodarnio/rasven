@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="docs/media/readme/hero-en.svg" alt="Rasven for Android — a free softphone for your organization's IAX2 PBX" width="100%">
+  <img src="docs/media/readme/banner-en.png" alt="Rasven for Android — a free softphone for your organization's IAX2 PBX, with a screenshot of the actual app" width="100%">
 </p>
+<p align="center"><sub>The banner shows the actual Rasven home screen. Its connection indicator and extension are sample values.</sub></p>
 
 <h1 align="center">Rasven for Android</h1>
 
