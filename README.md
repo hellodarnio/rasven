@@ -84,11 +84,11 @@ Install a compatible JDK and Android SDK, then open the repository in Android St
 
 The debug APK is written to <code>app/build/outputs/apk/debug/</code>. It is for development and evaluation, not a signed public release. A release build also requires the approved production application ID and signing credentials; keep those values outside this repository and never commit a keystore or passwords.
 
-## Validation status
+## Release status
 
-The source handoff dated 2026-10-23 reported **332 passing JVM unit tests** and a targeted Android device run of **8/8**. These checks predate the latest signing configuration change. A separate full device run reported **190/195**, with five failures, so that suite was not green. The handoff records no fresh APK build after the signing change.
+Rasven v1.0.0 has been approved for publication in app markets and is available there. Darnio Studio confirms that the released app works correctly in its intended IAX2 PBX environment.
 
-Live interoperability with a PBX, attended transfer, and extended background/Doze behavior remain unverified for this source snapshot. Historical test results do not verify the APK currently distributed through app markets.
+This status refers to the published v1.0.0 app. PBX configurations and Android devices vary, so compatibility with every PBX or device is not guaranteed.
 
 ## Support Rasven
 
