@@ -1,41 +1,53 @@
 <p align="center">
-  <img src="docs/media/readme/banner-en.png" alt="Rasven for Android — a free softphone for your organization's IAX2 PBX, with a screenshot of the actual app" width="100%">
+  <img src="docs/media/readme/banner-en.png" alt="Rasven for Android — an IAX2 softphone, shown with the real Rasven app screen" width="100%">
 </p>
-<p align="center"><sub>The banner shows the actual Rasven home screen. Its connection indicator and extension are sample values.</sub></p>
+<p align="center"><sub>The banner uses the real Rasven home screen. Its connection status and extension are sample values.</sub></p>
 
 <h1 align="center">Rasven for Android</h1>
 
 <p align="center">
-  <a href="README.fa.md">فارسی</a> · <a href="#download">Download</a> · <a href="#architecture">Architecture</a> · <a href="#support-rasven">Support Rasven</a>
+  <a href="README.fa.md">فارسی</a> · <a href="#download">Download</a> · <a href="#features">Features</a> · <a href="#get-started">Get started</a> · <a href="#architecture">Architecture</a> · <a href="#support-rasven">Support Rasven</a>
 </p>
 
-Rasven is a free Android softphone for people who already have an account on an **IAX2-compatible organizational PBX**. It brings the organization's business line to an Android phone; it does not provide phone service, a PBX, or PBX accounts.
+<p align="center"><strong>Your office line, on Android.</strong><br>A free softphone for an existing IAX2-compatible organizational PBX account.</p>
+
+Rasven helps people use their organization's existing business phone account on an Android phone. It does not provide phone service, a PBX, or PBX accounts.
 
 ## Download
 
-<p align="center"><a href="https://github.com/hellodarnio/rasven/releases/tag/v1.0.0"><strong>Get the Rasven v1.0.0 APK</strong></a></p>
+<p align="center"><a href="https://github.com/hellodarnio/rasven/releases/tag/v1.0.0"><strong>↓ Download Rasven v1.0.0 APK</strong></a></p>
 
-The APK is attached to the [GitHub Release](https://github.com/hellodarnio/rasven/releases/tag/v1.0.0). **This repository is private**, so GitHub requires repository access to download it. Rasven v1 is also available through app markets.
+The APK is attached to the <a href="https://github.com/hellodarnio/rasven/releases/tag/v1.0.0">GitHub Release</a>. Rasven v1 is also available through app markets.
 
-> **Version note:** the market package has not been matched to this exact source snapshot or signing certificate. Installing this APK may not update a market-installed copy.
+> **Package verification:** The Bazaar v1.0.0 package checked on 2026-10-29 had the same SHA-256 as the APK attached to this release: <code>07918398b40f32dc3e076e4d74407c078c66155d0dd92922ab4286a2855d3965</code>. This confirms that checked package only; packages from other markets were not compared.
 
-## At a glance
+<h2 id="features">What you can do</h2>
 
-| | |
-|---|---|
-| 📞 **Business-line calling** | IAX2 account setup and incoming/outgoing call flows |
-| 🎛️ **In-call controls** | Mute, speaker, hold, and keypad controls are included in the app |
-| 👥 **Useful phone tools** | Contacts, call history, and call settings |
-| 🌐 **Two languages** | English by default, with Persian available |
+<table>
+  <tr>
+    <td width="50%"><h3 align="center">📞 Office-line calls</h3><p align="center">Make and receive calls through your organization's IAX2 PBX account.</p></td>
+    <td width="50%"><h3 align="center">🎛️ In-call controls</h3><p align="center">Use mute, speaker, hold, and keypad controls while calling.</p></td>
+  </tr>
+  <tr>
+    <td width="50%"><h3 align="center">👥 Everyday phone tools</h3><p align="center">Keep contacts, call history, and call settings close at hand.</p></td>
+    <td width="50%"><h3 align="center">🌐 English + فارسی</h3><p align="center">Use the app in English or Persian.</p></td>
+  </tr>
+</table>
 
-The list describes the current source. It is not a certification of compatibility with every PBX or Android device.
+These are the features represented in the current source. They do not certify compatibility with every PBX or Android device.
+
+<h2 id="get-started">Get started in three steps</h2>
+
+1. Ask your PBX administrator for the server address, port, extension or username, and password.
+2. Install Rasven from an app market or the GitHub Release above.
+3. Add your account and allow microphone and notification access for calling. Contacts access is optional.
 
 ## See the app
 
 <p align="center">
   <img src="docs/media/readme/home-en.png" alt="Rasven home dialer with sample account status and number keypad" width="245">
 </p>
-<p align="center"><sub>Home dialer UI from the source project's device evidence. Its connected indicator and extension are sample state, not a live PBX connection.</sub></p>
+<p align="center"><sub>This is the real home dialer from the project. The connected indicator and extension are sample state, not a live PBX connection.</sub></p>
 
 ## Architecture
 
@@ -70,7 +82,7 @@ Install a compatible JDK and Android SDK, then open the repository in Android St
 ./gradlew :app:assembleDebug
 ```
 
-The debug APK is written to `app/build/outputs/apk/debug/`. It is for development and evaluation, not a signed public release. A release build also requires the approved production application ID and signing credentials; keep those values outside this repository and never commit a keystore or passwords.
+The debug APK is written to <code>app/build/outputs/apk/debug/</code>. It is for development and evaluation, not a signed public release. A release build also requires the approved production application ID and signing credentials; keep those values outside this repository and never commit a keystore or passwords.
 
 ## Validation status
 
@@ -80,17 +92,24 @@ Live interoperability with a PBX, attended transfer, and extended background/Doz
 
 ## Support Rasven
 
-Rasven is free to use. Cryptocurrency support is optional and accepted in **USDT only** at the two addresses below. Each QR code contains only its wallet address; it does not select a token or network for you.
+Rasven is free to use. If it helps your organization, you can support its continued development with USDT. Support is optional.
 
-| 🟢 **USDT · BNB Smart Chain (BEP-20)** | 🔺 **USDT · TRON (TRC-20)** |
-|---|---|
-| <img src="docs/media/readme/usdt-bep20.svg" alt="QR code for the USDT BNB Smart Chain BEP-20 wallet address" width="180"> | <img src="docs/media/readme/usdt-trc20.svg" alt="QR code for the USDT TRON TRC-20 wallet address" width="180"> |
-| `0x2548E3A6dECac1FFfb0d02175d165B914CF04D40` | `TDWVLgeWp21hkPV4zgRJzMTB28nzcyuGck` |
+<table>
+  <tr><th>💛 USDT · BNB Smart Chain (BEP-20)</th><th>🔺 USDT · TRON (TRC-20)</th></tr>
+  <tr>
+    <td align="center"><img src="docs/media/readme/usdt-bep20.svg" alt="QR code for the USDT BNB Smart Chain BEP-20 wallet address" width="180"></td>
+    <td align="center"><img src="docs/media/readme/usdt-trc20.svg" alt="QR code for the USDT TRON TRC-20 wallet address" width="180"></td>
+  </tr>
+  <tr>
+    <td align="center"><code>0x2548E3A6dECac1FFfb0d02175d165B914CF04D40</code></td>
+    <td align="center"><code>TDWVLgeWp21hkPV4zgRJzMTB28nzcyuGck</code></td>
+  </tr>
+</table>
 
-Before sending, confirm **USDT** and the exact network shown above in your wallet. A transfer on a different network may not be recoverable.
+Each QR code contains only the wallet address; it does not select a token or network. Before sending, confirm **USDT** and the exact network shown above in your wallet. A transfer on a different network may not be recoverable.
 
 ## Project status and license
 
-The source repository is private today. **No project license has been added yet**, so the code is not yet released under an open-source license. A license must be selected before public reuse or public contribution can be invited.
+The source repository is public. **No project license has been added yet**, so the code is visible but has not been released under an open-source license. A license must be selected before general reuse or public contributions can be invited.
 
 Maintained by **Darnio Studio**.
